@@ -54,7 +54,7 @@
   padding: 10px 20px;
   background: #333333;
 }
-.nav-wrapper .active a {
+.nav-wrapper .logo a {
   background-color: #333333;
   color: #fff;
 }
@@ -66,6 +66,10 @@
 }
 .nav-wrapper a:hover {
   color: #000;
+}
+.nav-wrapper .logo a:hover {
+  background-color: #333333;
+  color: #fff;
 }
 .body {
   max-width: 1245px;

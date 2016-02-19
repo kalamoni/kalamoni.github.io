@@ -250,3 +250,14 @@
   position: absolute;
   /*bottom: 16px;*/
 }
+.form input {
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 55px;
+  background: #ff9933;
+  color: #fff;
+  border: 0px;
+  font-size: 14pt;
+  text
+}

@@ -251,13 +251,24 @@
   /*bottom: 16px;*/
 }
 .form input {
+  margin-top: 0px;
   margin-right: 0px;
   padding-left: 20px;
   padding-right: 20px;
-  height: 55px;
-  background: #ff9933;
+  height: 65px;
+  background: #fff;
   color: #fff;
-  border: 0px;
+  border-width: thin;
+  border-color: #ffffff;
+  border-style: groove;
   font-size: 14pt;
-  text
+  color: #000;
+}
+.form button {
+  height: 65px;
+  width: 70px;
+  background: #ff9933;
+  border: 0px;
+  color: #fff;
+  font-size: 14pt;
 }

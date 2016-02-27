@@ -43,6 +43,10 @@ body {
   list-style: none;
   text-align: right;
 }
+.nav-wrapper__user-interaction {
+  padding-right: 32px;
+  background: #fff;
+}
 .nav-wrapper__user-interaction ul {
   height: 60px;
   background-color: #ffffff;

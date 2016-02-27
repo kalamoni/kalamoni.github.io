@@ -36,13 +36,21 @@
       </nav>
       </div>
       <div class="breadcrumbs">
-        <h2>
-            <ul>
-             <li><a href="#!">home</a></li>
-             <li><a href="#!">men</a></li>
-           </ul>
-         </h2>
-
+        <ol itemscope itemtype="http://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope
+          itemtype="http://schema.org/ListItem">
+            <a itemprop="item" href="#!">
+              <span itemprop="name">home</span></a>
+              <meta itemprop="position" content="1" />
+          </li>
+          ›
+          <li itemprop="itemListElement" itemscope
+            itemtype="http://schema.org/ListItem">
+            <a itemprop="item" href="#!">
+              <span itemprop="name">men</span></a>
+              <meta itemprop="position" content="2" />
+          </li>
+        </ol>
       </div>
     </header>
 

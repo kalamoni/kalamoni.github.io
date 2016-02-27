@@ -78,6 +78,17 @@ body {
   text-align: left;
   color: #000;
 }
+.breadcrumbs ol {
+  text-transform: uppercase;
+  margin: 0;
+  background-color: #fff;
+  padding-top: 55px;
+  padding-left: 35px;
+  font-size: 14px;
+  list-style: none;
+  text-align: left;
+  color: #000;
+}
 .breadcrumbs li {
   padding-right: 20px;
   text-decoration: none;

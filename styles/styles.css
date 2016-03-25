@@ -75,8 +75,8 @@ body {
   width: 1130px;
   padding-bottom: 20px;
   border-bottom-style: solid;
-  border-width: 2px;
-  border-color: #999999;
+  border-width: 1px;
+  border-color: #c7c7c7;
   background: #fff;
 }
 .breadcrumbs{
@@ -553,4 +553,214 @@ body {
   text-align: center;
   font-size: 12px;
   border-style: solid;
+}
+.body-shopping-cart {
+  max-width: 1245px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #333333;
+}
+.body-shopping-cart h1{
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #666666;
+  font-size: 36px;
+}
+.body-shopping-cart p{
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-style: italic;
+  text-align: center;
+  font-size: 24px;
+  color: #999999;
+}
+.shopping-bag {
+  max-width: 1245px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #333333;
+}
+.shipping-address {
+  max-width: 1130px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #333333;
+  border-width: 1px;
+  border-color: #c7c7c7;
+  border-style: solid;
+}
+.shipping-address ul{
+  margin: 0 auto;
+  /*padding: 0;*/
+}
+.shipping-address li{
+  margin: 0 auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  list-style: none;
+  text-transform: uppercase;
+  color: #999999;
+  display: inline-block;
+}
+
+.shipping-address h1{
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #666666;
+  font-size: 36px;
+}
+.shipping-address p{
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  font-style: italic;
+  text-align: center;
+  font-size: 24px;
+  color: #999999;
+}
+.shipping-address h3{
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: left;
+  font-size: 14px;
+  padding-left: 300px;
+  font-weight: normal;
+}
+.shipping-address form {
+  height: 80px;
+  margin: 0 auto;
+  max-width: 1245px;
+  background-color: #fff;
+  padding-bottom: 50px;
+  padding-left: 300px;
+  background-color: #fff;
+  text-align: left;
+}
+.shipping-address form input{
+  margin: 0 auto;
+  width: 580px;
+  height: 42px;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background-color: #fff;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.shipping-address .side-by-side li{
+  /*padding-left: 300px;*/
+  display: inline-block;
+}
+.shipping-address .side-by-side form {
+  margin: 0 auto;
+  /*padding-left: 200px;*/
+  width: 0px;
+  display: inline-block;
+}
+.shipping-address .side-by-side h3 {
+  /*padding: 0;*/
+}
+.shipping-address .side-by-side form input{
+  width: 200px;
+  /*padding-left: 300px;*/
+}
+.payment-options {
+  margin: 0 auto;
+  max-width: 1130px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #333333;
+  text-align: center;
+  border-width: 1px;
+  border-color: #c7c7c7;
+  border-style: solid;
+}
+.payment-options h1{
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #666666;
+  font-size: 36px;
+}
+.payment-options p{
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 100px;
+  font-style: italic;
+  text-align: center;
+  font-size: 24px;
+  color: #999999;
+}
+.payment-options h3{
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  color: #999999;
+}
+.payment-options h4{
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 5px;
+  padding-left: 330px;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+  color: #999999;
+}
+.payment-options .total {
+  color: #ff9933;
+}
+.payment-options form {
+  height: 80px;
+  margin: 0 auto;
+  max-width: 1245px;
+  background-color: #fff;
+  padding-bottom: 50px;
+  /*padding-left: 300px;*/
+  background-color: #fff;
+  text-align: center;
+}
+.payment-options form input{
+  margin: 0 auto;
+  width: 580px;
+  height: 42px;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background-color: #fff;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.payment-options button{
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ff9933;
+  border-width: 0;
+  color: #fff;
+}
+.shopping-cart-divider {
+  margin: 0 auto;
+  width: 1245px;
+  height: 170px;
+  background: #fff;
 }

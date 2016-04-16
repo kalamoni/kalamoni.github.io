@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 .slider-wrapper{
 	background-color: #8d8d8d;
 	height: 750px;
@@ -11,4 +16,29 @@
 }
 .slider-images{
 	line-height: 1200px;
+}
+.main-wrapper {
+	margin-left: 140px;
+	margin-right: 140px;
+	margin-top: 90px;
+}
+.main{
+	display: inline-block;
+	width:45%;
+}
+.main-title{
+	text-transform: uppercase;
+}
+.main-title p,h2{
+	margin:0;
+}
+.main-content{
+	margin-top: 30px;
+	font-size: 14px;
+}
+.main-side{
+	width:35%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 100px;	
 }

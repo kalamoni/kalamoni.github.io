@@ -406,3 +406,33 @@
 .prices-element-details li {
     margin-bottom: 25px;
 }
+
+.team-container ul {
+    list-style: none;
+}
+
+.team-element {
+    display: inline-block;
+    width: 200px;
+    height: 420px;
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.team-first-element {
+    margin-left: -39px;
+}
+
+.team-social-icons li {
+    float: left;
+}
+
+.fix-team-background {
+    clear: both;
+    height: 650px;
+}
+
+.fix-team-background-padding {
+    padding-top: 50px;
+}

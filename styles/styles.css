@@ -281,3 +281,18 @@
   font-size: 14px;
   font-weight: normal;
 }
+.client-wrapper {
+	margin-left: 140px;
+	margin-right: 140px;
+	margin-top: 90px;
+	
+}
+.client-color{
+	background-color: #e4eff2;
+}
+.title{
+	text-transform: uppercase;
+}
+.subtitle{
+	text-transform: uppercase;
+}

@@ -296,3 +296,14 @@
 .subtitle{
 	text-transform: uppercase;
 }
+.client-content{
+	margin-top: 30px;
+}
+.client-main{
+	width:35%;
+	display: inline-block;
+}
+.client-side{
+	width:35%;
+	display: inline-block;
+}

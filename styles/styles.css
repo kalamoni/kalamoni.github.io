@@ -310,3 +310,15 @@
 .main-side  h3{
 	display: inline-block;
 }
+
+.features-wrapper {
+  margin-left: 200px;
+}
+
+.features-title-wrapper {
+    margin-top: 99px;
+}
+
+.features-title-wrapper h3 {
+    margin-bottom: -18px;
+}

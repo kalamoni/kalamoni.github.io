@@ -298,6 +298,8 @@
 }
 .client-content{
 	margin-top: 30px;
+	display: inline-block;
+	font-size:14px;
 }
 .client-main{
 	width:35%;
@@ -309,4 +311,13 @@
 }
 .main-side  h3{
 	display: inline-block;
+}
+.client-content::before {
+    content: "\201C";
+    font-size: 80px;
+    color: #000000;
+}
+.quote-name{
+	text-transform: uppercase;
+	color:#ff9933;
 }

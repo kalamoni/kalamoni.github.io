@@ -161,6 +161,7 @@
   color: #666666;
   text-align: center;
   text-transform: capitalize;
+    clear: both;
 }
 .promotion h3{
   font-size: 30px;
@@ -377,4 +378,31 @@
 
 .feature-list-text-title p {
     margin-top: 0;
+}
+
+.prices-container ul {
+    list-style: none;
+}
+
+.prices-element {
+    display: inline-block;
+    width: 200px;
+    height: 420px;
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.prices-first-element {
+    margin-left: -39px;
+}
+
+.prices-element-details ul {
+    list-style: none;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.prices-element-details li {
+    margin-bottom: 25px;
 }

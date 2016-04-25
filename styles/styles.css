@@ -452,7 +452,7 @@
   text-align: left;
   padding-top: 70px;
   padding-right: 35px;
-  width: 20%;
+  width: 250px;
   display: inline-block;
 }
 .stats h3 {
@@ -493,4 +493,130 @@
 }
 .slider-content h1{
   margin: 0;
+}
+.services {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 1000px;
+  height: 2200px;
+  text-align: center;
+}
+.services h2{
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.services p{
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+.services ul{
+  text-align: center;
+  margin: 0 auto;
+  width: 1150px;
+  list-style: none;
+}
+.services li{
+  width: 900px;
+  text-align: justify;
+  border: 0;
+  border-top: 1px;
+  border-style: solid;
+  border-color: #666666;
+  padding-top: 60px;
+}
+.services li:nth-child(3){
+  border: 0;
+}
+.services img{
+  padding-left: 50px;
+}
+.services__body{
+  margin: 0 auto;
+  width: 630px;
+  float: right;
+}
+.services__body h2{
+  padding-left: 10px;
+  text-transform: capitalize;
+  font-size: 20px;
+  border: 0;
+  border-left: 4px;
+  border-color: #29c2e1;
+  border-style: solid;
+  color: #333333;
+}
+.services__body p{
+  text-align: justify;
+  padding: 0;
+  padding-top: 22px;
+  padding-bottom: 32px;
+  font-size: 14px;
+  color: #333333;
+}
+.services__body button{
+  margin: 0 auto;
+  margin-bottom: 40px;
+  height: 38px;
+  line-height: 38px;
+  width: 142px;
+  border: 0px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #29c2e1;
+  border-width: 0;
+  border-radius: 19px;
+  color: #fff;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+  margin: 0;
+}
+.clearfix::after {
+  margin: 0;
+  clear: both;
+}
+.services__body--active{
+  margin: 0 auto;
+  width: 630px;
+  float: right;
+  display: inline-block;
+}
+.services__body--active h2{
+  padding-left: 10px;
+  text-transform: capitalize;
+  font-size: 20px;
+  border: 0;
+  border-left: 4px;
+  border-color: #ff9933;
+  border-style: solid;
+  color: #333333;
+}
+.services__body--active p{
+  text-align: justify;
+  padding: 0;
+  padding-top: 22px;
+  padding-bottom: 32px;
+  font-size: 14px;
+  color: #333333;
+}
+.services__body--active button{
+  margin: 0 auto;
+  margin-bottom: 40px;
+  height: 38px;
+  line-height: 38px;
+  width: 142px;
+  border: 0px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ff9933;
+  border-width: 0;
+  border-radius: 19px;
+  color: #fff;
 }

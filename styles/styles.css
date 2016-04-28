@@ -665,3 +665,15 @@
 .slider-wrapper__blog p{
   text-align: center;
 }
+
+.zero-margin-top {
+    margin-top: 0;
+}
+
+.about-us-side-text-fix-position {
+    margin-top: 75px;
+}
+
+.clear-background-color {
+    background-color: #FFFFFF;
+}

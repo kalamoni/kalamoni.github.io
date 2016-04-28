@@ -652,3 +652,16 @@
 .projects a{
   padding: 10px;
 }
+.slider-wrapper__blog{
+  background-color: #8d8d8d;
+  height: 310px;
+  text-transform: uppercase;
+  color: #FFFFFF; 
+}
+.slider-wrapper__blog h1{
+  padding-left: 42%;
+
+}
+.slider-wrapper__blog p{
+  text-align: center;
+}

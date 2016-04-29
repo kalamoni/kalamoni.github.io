@@ -822,3 +822,24 @@
     background-color: #e3eef0;
 }
 
+.comments__blog-post {
+    margin-top: 150px;
+}
+
+.commenter-picture__blog-post {
+    display: inline-block;
+    margin: 40px 40px;
+}
+
+.commenter-title__blog-post {
+    display: inline-block;
+    width: 650px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.comment__blog-post {
+    display: inline-block;
+    width: 650px;
+}

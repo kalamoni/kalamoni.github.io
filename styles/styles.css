@@ -760,7 +760,6 @@
 .main-wrapper__body h4{
   text-transform: none;
 }
-
 .main-wrapper__blog-post {
   margin-left: 140px;
   margin-right: 140px;
@@ -842,4 +841,21 @@
 .comment__blog-post {
     display: inline-block;
     width: 650px;
+}
+.main-side__post{
+  padding-top: 3%;
+}
+.main-side__post td{
+  text-align: center;
+  padding-top: 7%;
+  font-size: 14px
+}
+.main-side__post a{
+  display: inline-block;
+  padding-bottom: 3%;
+  width: 67px;
+  height: 67px;
+  background: #fff url(../images/image67x67.png) 50% 50% no-repeat;
+  border: 0;
+  font-size: 0
 }

@@ -760,3 +760,65 @@
 .main-wrapper__body h4{
   text-transform: none;
 }
+
+.main-wrapper__blog-post {
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 90px;
+}
+
+.text__blog-post {
+  margin: 0 auto;
+  display: inline-block;
+  width:75%;
+}
+
+.blog-post__title{
+  text-transform: uppercase;
+    margin-top: 40px;
+
+}
+
+.blog-post__title p,h2{
+  margin:0;
+}
+
+.list__blog-post {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.list__blog-post p {
+    text-transform: uppercase;
+}
+
+.list__blog-post li {
+    list-style: none;
+}
+
+.author-title__blog-post {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: small;
+    color: #F48240;
+}
+
+.author-text__blog-post {
+
+    display: inline-block;
+    width: 650px;
+}
+
+.author-name__blog_post {
+    display: inline-block;
+}
+
+.author-picture__blog-post {
+    display: inline-block;
+    margin: 40px 40px;
+}
+
+.author__blog-post {
+    background-color: #e3eef0;
+}
+

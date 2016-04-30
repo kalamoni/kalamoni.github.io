@@ -725,6 +725,7 @@
   margin-left: 250px;
 }
 .main-side__list{
+  padding-top: 5%;
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
@@ -738,6 +739,12 @@
   color: #000;
   text-decoration: none;
   text-transform: uppercase;
+}
+.main-side__list a:hover{
+  color: #F48240;
+}
+.main-side__list li{
+  padding-top: 3%;
 }
 .main-wrapper__heading{
   padding-left: 40px;
@@ -858,4 +865,47 @@
   background: #fff url(../images/image67x67.png) 50% 50% no-repeat;
   border: 0;
   font-size: 0
+}
+.main-side__tag td,th{
+  font-weight: normal;
+  text-align: center;
+  padding-top: 3%;
+  font-size: 14px
+}
+.main-side__tag h4,
+.main-side__post h4{
+  text-transform: none;
+}
+.main-side__tag button{
+  margin-left: 2%;
+  height: 38px;
+  line-height: 38px;
+  width: 142px;
+  border: 0px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #29c2e1;
+  border-width: 0;
+  color: #fff;
+}
+.main-wrapper__pages a{
+  text-decoration: none;
+}
+.main-wrapper__pages button{
+  margin-left: 3%;
+  margin: 0 auto;
+  height: 38px;
+  line-height: 38px;
+  width: 42px;
+  border: 0px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #29c2e1;
+  border-width: 0;
+  color: #fff;
+}
+.main-wrapper__pages button:hover{
+  background-color: #F48240;
 }
